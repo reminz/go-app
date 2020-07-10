@@ -1,4 +1,4 @@
-FROM golang:1.11-alpine
+FROM docker.io/library/golang:1.11-alpine
 RUN mkdir /app
 COPY main.go /app
 WORKDIR /app
